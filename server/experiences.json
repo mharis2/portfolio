@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "role": "Junior Software Developer",
+      "company": "Areto Labs",
+      "duration": "Jan 2021 – June 2021",
+      "location": "Remote",
+      "responsibilities": [
+        "Developed and implemented a monthly subscription service for a Slack application using GCP, Stripe API, Python, and JavaScript, leading to significant projected sales growth.",
+        "Demonstrated public speaking expertise by live presenting the Slack app to the marketing team, leading to the app's successful launch.",
+        "Organized and led team meetings, effectively delegating tasks, and scheduling hackathons to meet ongoing responsibilities and set new goals."
+      ]
+    }
+  ]
+  

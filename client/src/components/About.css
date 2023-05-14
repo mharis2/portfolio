@@ -1,0 +1,31 @@
+
+
+#about {
+    padding: 2em;
+    background-color: #B8E0C3;
+    color: #333;
+    text-align: center;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+  
+  #about h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  #about p {
+    font-size: 1.125em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  

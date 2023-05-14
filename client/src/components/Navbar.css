@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 1em 0em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    z-index: 1; /* This will keep the navbar on top of other elements */
+}
+
+nav a {
+    margin: 0 1em;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* This will animate the color change */
+}
+
+.right a {
+    color: #fff;
+    margin-left: 1em; /* This will add some space between the icons */
+}
+
+nav a:hover {
+    color: #DD9751; /* This will change the link color when hovered */
+}

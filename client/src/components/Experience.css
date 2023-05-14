@@ -1,0 +1,25 @@
+#experience {
+  padding: 2em;
+  background-color: #DD9751;
+  color: #fff; /* White text should be easy to read on the orange background */
+}
+
+
+.experience-card {
+  margin-bottom: 2em;
+}
+
+.experience-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.experience-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.experience-card ul {
+  list-style-type: disc;
+  margin-left: 2em;
+}

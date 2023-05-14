@@ -1,0 +1,49 @@
+
+#contact {
+    padding: 2em;
+    background-color: #EE6D5E;
+    color: #000;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #contact input, #contact textarea {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+    
+  }
+  #contact textarea {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+    height: 100px; /* This will make the textarea 150px tall */
+  }
+  
+  
+  #contact button {
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #DD9751;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* This will animate the color change */
+
+  }
+  #contact button:hover {
+    background-color: #AFD5E7; /* This will change the button color when hovered */
+}
+  
+  #contact p {
+    text-align: center;
+    margin-top: 1em;
+  }
+  

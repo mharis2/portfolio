@@ -1,0 +1,23 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #F9ECF1;
+    color: #333; /* This is a dark gray color that should be easy to read on the light pink background */
+  }
+  
+  
+  #home div:first-child {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  #home div:last-child {
+    font-size: 2em;
+    font-weight: 300;
+  }
+  

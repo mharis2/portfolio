@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Whisper",
+      "description": "A real-time chat application",
+      "technologies": ["React", "Node.js", "Express", "Socket.IO", "PostgreSQL", "JWT", "Jest"],
+      "link": "https://github.com/mharis2/whisper"
+    },
+    {
+      "id": 2,
+      "title": "SocialDistribution",
+      "description": "A user-friendly blogging/social network platform",
+      "technologies": ["Python", "JavaScript", "HTML", "CSS", "Django"],
+      "link": "https://github.com/mharis2/socialdistribution"
+    }
+  ]
+  
