@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+
 
 #contact {
     padding: 2em;
@@ -17,33 +24,47 @@
     margin-bottom: 1em;
     border: none;
     border-radius: 5px;
-    
-  }
-  #contact textarea {
-    padding: 1em;
-    margin-bottom: 1em;
-    border: none;
-    border-radius: 5px;
-    height: 100px; /* This will make the textarea 150px tall */
-  }
-  
-  
-  #contact button {
-    padding: 1em;
-    border: none;
-    border-radius: 5px;
-    background-color: #DD9751;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* This will animate the color change */
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+    /* change the input text font to be the same as the rest of the page */
+    font-family: 'Lato', sans-serif;
 
-  }
+}
+#contact label {
+  display: block;
+  margin-bottom: .5em;
+  color: #fff;
+  font-size: 1.2em;
+  text-align: left;
+}
+#contact textarea {
+  padding: 1em;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5px;
+  height: 100px;
+  resize: vertical; /* This allows the user to resize the textarea vertically */
+}
+  
+#contact button {
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #DD9751;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
   #contact button:hover {
     background-color: #AFD5E7; /* This will change the button color when hovered */
 }
   
-  #contact p {
-    text-align: center;
-    margin-top: 1em;
-  }
-  
+#contact p {
+  text-align: center;
+  margin-top: 1em;
+  color: #fff;
+}

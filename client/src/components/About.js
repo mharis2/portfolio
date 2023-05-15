@@ -1,14 +1,35 @@
-import React from 'react';
-import './About.css';
+import React from "react";
+import "./About.css";
 
 function About() {
   return (
     <div id="about">
-      <img src="https://via.placeholder.com/200" alt="Profile" />
       <h1>ABOUT</h1>
-      <p>Hi, I'm Muhammad Haris.<br /><br />A Software Engineer with a Bachelor's in Computing Science from the University of Alberta, I specialize in developing efficient and user-friendly applications using a wide array of technologies.</p>
-      <p>At Areto Labs, I spearheaded the development of a subscription service for a Slack application, significantly boosting projected sales. My portfolio showcases my versatility, with projects like Whisper, a real-time chat application, and SocialDistribution, a blogging/social network platform.</p>
-      <p>I am proficient in Python, Java, C++, JavaScript, and many other languages and tools. I am committed to continuous learning and improvement, always aiming to create software that enhances user experience. I am excited to leverage my skills and experiences in new opportunities.</p>
+      <div className="about-content">
+        <div className="profile-photo-container">
+          <img src="/images/profile.png" className="profile-photo" alt="Profile" />
+          <p className="fun-fact"> <strong>Fun Fact:</strong> As an avid gamer, I achieved Grandmasters in League of Legends, and also had the honor of captaining my University's competetive team in the same game!</p>
+        </div>
+        <div className="about-details">
+          <div className="about-card">
+            <h2>Education and Profession</h2>
+            <p>Software engineer with a Bachelor of Computer Science and a Mathematics Minor from the University of Alberta. My expertise lies in end-to-end development, from crafting intuitive user interfaces to developing efficient backend services. With a comprehensive skill set spanning multiple languages and tools, I am equipped to build robust, scalable applications in diverse domains.</p>
+          </div>
+          <div className="about-card">
+            <h2>Experience</h2>
+            <p>At Areto Labs, I played a pivotal role in spearheading the development of a subscription service for a Slack application, significantly boosting projected sales. In addition, my responsibilities included ensuring the application's compatibility with diverse systems, proactively troubleshooting issues, and consistently delivering enhancements. More recently, I collaborated with Shaquille O'Neal's management to create Astralsnft.io, an innovative NFT website.</p>
+          </div>
+          <div className="about-card">
+            <h2>Technical Skills</h2>
+            <p>
+              <strong>Backend:</strong> Flask, Django, Express.<br/>
+              <strong>Frontend:</strong> React, Node.js.<br/>
+              <strong>Databases:</strong> PostgreSQL, MongoDB.<br/>
+              <strong>Languages & Infrastructure:</strong> Python, Java, JavaScript, Golang, SQL, Docker, Terraform, Kubernetes, GCP.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

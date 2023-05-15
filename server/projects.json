@@ -1,17 +1,50 @@
 [
-    {
+  {
       "id": 1,
       "title": "Whisper",
-      "description": "A real-time chat application",
+      "description": "Real-time chat application with secure user authentication.",
       "technologies": ["React", "Node.js", "Express", "Socket.IO", "PostgreSQL", "JWT", "Jest"],
-      "link": "https://github.com/mharis2/whisper"
-    },
-    {
+      "link": "https://github.com/mharis2/whisper",
+      "image": "/images/whisper.png"
+  },
+  {
       "id": 2,
       "title": "SocialDistribution",
-      "description": "A user-friendly blogging/social network platform",
+      "description": "Blogging/social network platform with diverse post features.",
       "technologies": ["Python", "JavaScript", "HTML", "CSS", "Django"],
-      "link": "https://github.com/mharis2/socialdistribution"
-    }
-  ]
-  
+      "link": "https://github.com/mharis2/socialdistribution",
+      "image": "/images/sd.png"
+  },
+  {
+      "id": 3,
+      "title": "NoteMate",
+      "description": "Efficient note-taking API with in-memory data store.",
+      "technologies": ["Golang", "Terraform", "Kubernetes", "Docker"],
+      "link": "https://github.com/mharis2/notemate",
+      "image": "/images/notemate.png"
+  },
+  {
+      "id": 4,
+      "title": "CrowdFly",
+      "description": "Collaborative experimentation app with QR and location features.",
+      "technologies": ["Java", "Android Studio", "Firebase"],
+      "link": "https://github.com/mharis2/crowdfly",
+      "image": "/images/crowdfly.png"
+  },
+  {
+      "id": 5,
+      "title": "Henna Booking",
+      "description": "Appointment booking web app for a henna artist client.",
+      "technologies": ["React", "Express"],
+      "link": "https://github.com/mharis2/henna-booking",
+      "image": "/images/hennah.png"
+  },
+  {
+      "id": 6,
+      "title": "Astralsnft.io",
+      "description": "Digital platform showcasing 'Astrals' - an NFT collection by Shaquille O'Neal.",
+      "technologies": ["Wordpress"],
+      "link": "https://astralsnft.io",
+      "image": "/images/astrals.png"
+  }
+]
