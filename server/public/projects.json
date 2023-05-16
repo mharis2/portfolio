@@ -12,7 +12,7 @@
       "title": "SocialDistribution",
       "description": "Blogging/social network platform with diverse post features.",
       "technologies": ["Python", "JavaScript", "HTML", "CSS", "Django"],
-      "link": "https://github.com/mharis2/socialdistribution",
+      "link": "https://github.com/CMPUT404F22D01-NKQHN/lab-d01-monday-cmput404-project",
       "image": "/images/sd.png"
   },
   {
@@ -20,7 +20,7 @@
       "title": "NoteMate",
       "description": "Efficient note-taking API with in-memory data store.",
       "technologies": ["Golang", "Terraform", "Kubernetes", "Docker"],
-      "link": "https://github.com/mharis2/notemate",
+      "link": "https://github.com/mharis2/golang-simple-note-taking",
       "image": "/images/notemate.png"
   },
   {
@@ -28,7 +28,7 @@
       "title": "CrowdFly",
       "description": "Collaborative experimentation app with QR and location features.",
       "technologies": ["Java", "Android Studio", "Firebase"],
-      "link": "https://github.com/mharis2/crowdfly",
+      "link": "https://github.com/CMPUT301W21T06/CrowdFly",
       "image": "/images/crowdfly.png"
   },
   {

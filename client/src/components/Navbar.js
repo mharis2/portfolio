@@ -18,15 +18,15 @@ function Navbar() {
         <a href="#contact">CONTACT</a>
       </div>
       <div className="right">
-        <a href="https://github.com/mharis2" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/mharis2" target="_blank" rel="noopener noreferrer" title="GitHub">
           <FontAwesomeIcon icon={faGithub} size='lg' />
         </a>
-        <a href="https://www.linkedin.com/in/mharis2" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/mharis2" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <FontAwesomeIcon icon={faLinkedin} size='lg' />
         </a>
-        <a href="/pdfs/Haris_resume.pdf" target="_blank" rel="noopener noreferrer">
-  <FontAwesomeIcon icon={faFileAlt} size = 'lg'/>
-</a>
+        <a href="/pdfs/Haris_resume.pdf" target="_blank" rel="noopener noreferrer" title="Resume">
+          <FontAwesomeIcon icon={faFileAlt} size='lg'/>
+        </a>
       </div>
       <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
         <div></div>
