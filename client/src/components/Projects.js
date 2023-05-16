@@ -5,7 +5,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch(`${process.env.REACT_APP_BACKEND_URL}/projects`)
+    fetch(`https://${process.env.REACT_APP_BACKEND_URL}/projects.json`)
     .then(response => response.json())
       .then(data => setProjects(data))
       .catch(error => console.error(error));

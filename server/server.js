@@ -3,11 +3,12 @@ const fs = require('fs');
 const cors = require('cors');
 const nodemailer = require('nodemailer');
 const app = express();
-const port = 5000;
+//const port = 5000;
 
 require('dotenv').config();
 app.use(cors());
 app.use(express.json());
+app.use(express.static('public'));
 
 app.post('/contact', async (req, res) => {
     let { name, email, message } = req.body;
@@ -63,6 +64,9 @@ app.get('/experiences', (req, res) => {
   });
   
 
+// use process.env.PORT for production choose either const or var for the name of variable
+const port = process.env.PORT || 5000;
+
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log('Server running on port ' + port);
 });
