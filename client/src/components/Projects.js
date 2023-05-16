@@ -5,8 +5,8 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/projects')
-      .then(response => response.json())
+    fetch(`${process.env.REACT_APP_BACKEND_URL}/projects`)
+    .then(response => response.json())
       .then(data => setProjects(data))
       .catch(error => console.error(error));
   }, []);
