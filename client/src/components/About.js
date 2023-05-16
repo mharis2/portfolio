@@ -12,7 +12,7 @@ function About() {
         </div>
         <div className="about-details">
           <div className="about-card">
-            <h2>Education and Profession</h2>
+            <h2>Education & Profession</h2>
             <p>Software engineer with a Bachelor of Computer Science and a Mathematics Minor from the University of Alberta. My expertise lies in end-to-end development, from crafting intuitive user interfaces to developing efficient backend services. With a comprehensive skill set spanning multiple languages and tools, I am equipped to build robust, scalable applications in diverse domains.</p>
           </div>
           <div className="about-card">

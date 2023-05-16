@@ -4,8 +4,8 @@ import './Footer.css';
 function Footer() {
   return (
     <footer>
-      <p>Developed with React (Frontend) and Express (Backend)</p>
-      <p>Deployed with Google Cloud Platform & Firebase</p>
+      <p>Developed with React (Frontend) & Express (Backend)</p>
+      <p>Deployed via GCP & Firebase with CI/CD by GitHub Actions</p>
     </footer>
   );
 }
