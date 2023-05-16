@@ -68,3 +68,24 @@
   text-align: left;
   margin-bottom: 1em; 
 }
+
+/* CSS Media Query for Mobile */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+  
+  .profile-photo-container {
+    margin-right: 0;
+    margin-bottom: 2em;
+  }
+  
+  .profile-photo {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .about-details {
+    flex: none;
+  }
+}
