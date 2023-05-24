@@ -8,7 +8,7 @@ function About() {
       <div className="about-content">
         <div className="profile-photo-container">
           <img src="/images/profile.png" className="profile-photo" alt="Profile" />
-          <p className="fun-fact"> <strong>Fun Fact:</strong> As an avid gamer, I achieved Grandmasters in League of Legends, and also had the honor of captaining my University's competetive team in the same game!</p>
+          {/* <p className="fun-fact"> <strong>Fun Fact:</strong> As an avid gamer, I achieved Grandmasters in League of Legends, and also had the honor of captaining my University's competetive team in the same game!</p> */}
         </div>
         <div className="about-details">
           <div className="about-card">

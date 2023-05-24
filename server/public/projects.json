@@ -46,5 +46,14 @@
       "technologies": ["Wordpress"],
       "link": "https://astralsnft.io",
       "image": "/images/astrals.png"
+  },
+  {
+    "id": 7,
+    "title": "Salah-bot",
+    "description": "Discord bot enabling users to set their timezone for receiving automated prayer time alerts.",
+    "technologies": ["Python", "SQLite3"],
+    "link": "https://github.com/mharis2/discord-prayer-bot",
+    "image": "/images/pray.png"
   }
+  
 ]
